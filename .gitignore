@@ -1,0 +1,12 @@
+#-----composer------
+composer.lock
+composer.phar
+vendor
+#-----phpstorm------
+.idea
+
+#-----local data----
+
+#apache local-config
+findwc.conf
+

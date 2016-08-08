@@ -1,0 +1,36 @@
+.form-control-success {
+    border-color: #48c9b0!important;
+}
+.input-group-addon-success {
+    background-color: #1ABC9C!important;
+    border: 1px solid #1ABC9C!important;
+}
+
+@media (max-width: 768px){
+    .h1_home {
+        font-size: 34px;
+    }
+    .my-title-section{
+        font-size: 34px!important;
+    }
+
+    .my-price-table{
+        font-size: 14px!important;
+    }
+
+/*    .my-price-table2{
+        font-size: 12px!important;
+    }*/
+}
+
+.my-price-left
+{
+    text-align: left;
+}
+
+.my-price-right
+{
+    text-align: right;
+    min-width: 139px;
+}
+

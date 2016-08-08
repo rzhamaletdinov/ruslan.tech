@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^info.php - [L]
+RewriteRule ^(.*)$ index.php [NC,L]

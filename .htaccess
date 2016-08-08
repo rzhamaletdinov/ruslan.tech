@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^assets/ - [L]
+RewriteRule ^info.php - [L]
+RewriteRule ^(.*)$ index.php [NC,L]
