@@ -2,9 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center white">
-                <h2 class="my-title-section">Не понятно что спрашивать?</h2>
+                <h2 class="my-title-section">{{ locale['block.subscribe.title'] }}</h2>
                 <br>
-                <p class="lead" style="margin-top:0">Ничего страшного. <br>Я позвоню Вам, как только будет свободная минута.</p>
+                {% autoescape false %}
+                <p class="lead" style="margin-top:0">{{ locale['block.subscribe.desc'] }}</p>
+                {% endautoescape %}
             </div>
             <div class="col-md-6 col-md-offset-3 text-center">
                 <div class="mockup-content">
@@ -13,10 +15,10 @@
                         <div class="morph-content">
                             <div>
                                 <div class="content-style-form content-style-form-4 ">
-                                    <h2 class="morph-clone">Оставьте свой контакт</h2>
+                                    <h2 class="morph-clone">{{ locale['block.subscribe.form.title'] }}</h2>
                                     <form role="form" action="callback_form" method="GET" id="CallbackForm">
                                         <p><input id="callbackPhone" type="text" name="callbackPhone" placeholder="8 916 123 45 67"></p>
-                                        <p><button disabled name="submit" onclick="$('#CallbackForm').submit()" type="submit" id="sumbitCallback">Отправить</button></p>
+                                        <p><button disabled name="submit" onclick="$('#CallbackForm').submit()" type="submit" id="sumbitCallback">{{ locale['block.subscribe.form.send'] }}</button></p>
                                     </form>
                                 </div>
                             </div>

@@ -9,7 +9,9 @@ BLOCK,FULLSCREEN
 block.fullscreen.title,"IT-решения"
 block.fullscreen.desc,"РАЗРАБОТКА  &nbsp; & &nbsp; СОПРОВОЖДЕНИЕ &nbsp; ПРОЕКТОВ"
 block.fullscreen.repost.vk,"Улучшение условий за репост VKontakte"
+block.fullscreen.repost.vk.url,"https://vk.com/share.php?url=http://ruslan.tech/&title=Работаю%20напрямую%20с%20программистом%20и%20экономлю%20бюджет%20проекта!#разработка&description=IT-решения: проект под ключ, программирование, консалтинг.&image=http://ruslan.tech/img/programmer/1.jpg&url=http://ruslan.tech/&noparse=true"
 block.fullscreen.repost.fb,"Улучшение условий за репост Facebook"
+block.fullscreen.repost.fb.url,"https://www.facebook.com/v2.3/dialog/share?redirect_uri=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose&display=popup&href=http%3A%2F%2Fruslan.tech%2F&client_id=966242223397117&ret=login&sdk=joey&ext=1464299771&hash=AeYM8LqZo1kWRyU5&title=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%20%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%BC%D1%83%D1%8E%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%BC%20%D0%B8%20%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%BB%D1%8E%20%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0!&description=IT-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F:%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87,%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5,%20%D1%81%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5,%20%D0%BA%D0%BE%D0%BD%D1%81%D0%B0%D0%BB%D1%82%D0%B8%D0%BD%D0%B3.&picture=http://ruslan.tech/img/programmer/1_fb.jpg"
 BLOCK,NAVBAR
 block.navbar.contact,"Обратиться"
 block.navbar.whatis,"Кто?"
@@ -38,6 +40,8 @@ block.useit.programming.price.hour.desc,"Час работы"
 block.useit.programming.price.hour.sum,"1 000 руб"
 block.useit.programming.price.day.desc,"День работы"
 block.useit.programming.price.day.sum,"5 000 руб"
+block.useit.programming.price.week.desc,"Неделя работы"
+block.useit.programming.price.week.sum,"19 000 руб"
 block.useit.programming.list.1,"Подключить платежную систему к интернет-магазину"
 block.useit.programming.list.2,"Сделать рассылку клиентам через WhatsApp"
 block.useit.programming.list.3,"Найти узкие места в тормозящем коде"
@@ -107,7 +111,6 @@ block.employers.qsoft.desc,"Разработывает и поддерживае
 BLOCK,DOWNLOAD
 block.download.title,"Веб-разработка это просто!"
 BLOCK,CONTACT
-block.contact.title,"Веб-разработка это просто!"
 block.contact.desc,"Помните! <br>Срочные дела всегда решаются по телефону."
 block.contact.form.name,"Как к Вам обращаться"
 block.contact.form.feedback,"Способ и контакт для обратной связи"
@@ -115,3 +118,5 @@ block.contact.form.message,"Коротко о проблеме"
 block.contact.form.submit,"Отправить"
 BLOCK,MODAL
 block.modal.thanks_for_request,"Спасибо за обращение!"
+block.modal.message.success,"Сообщение уже в моем почтовом ящике!"
+block.modal.phone.success,"Я уже набираю номер!"

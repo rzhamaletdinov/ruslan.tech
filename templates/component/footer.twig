@@ -67,7 +67,26 @@
 <script src="js/my_custom.js"></script>
 <script src="http://malsup.github.com/jquery.form.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script>
 
+    $(document).ready(function() {
+
+        $('#EmailSendForm').ajaxForm(function(response) {
+            console.log(response);
+            $('#contentSubmitModal').text('{{ locale['block.modal.message.success'] }}');
+            $('#SubmitModal').modal('show');
+        });
+
+        $("#callbackPhone").mask("8 999 999 99 99");
+
+        //not working
+        $('#CallbackForm').ajaxForm(function(response) {
+            console.log(response);
+            $('#contentSubmitModal').text('{{ locale['block.modal.phone.success'] }}');
+            $('#SubmitModal').modal('show');
+        });
+    });
+</script>
 </body>
 
 </html>

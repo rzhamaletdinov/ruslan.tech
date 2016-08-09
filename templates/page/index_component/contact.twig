@@ -13,33 +13,34 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <div class="input-group">
-                            <input type="text" class="form-control" name="InputName" id="EmailSendName" placeholder="Как к Вам обращаться" required>
+                            <input type="text" class="form-control" name="InputName" id="EmailSendName" placeholder="{{ locale['block.contact.form.name'] }}" required>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user form-control-feedback"></i></span>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <div class="input-group">
-                            <input type="text" class="form-control" id="EmailSendContact" name="InputEmail" placeholder="Способ и контакт для обратной связи" required  >
+                            <input type="text" class="form-control" id="EmailSendContact" name="InputEmail" placeholder="{{ locale['block.contact.form.feedback'] }}" required  >
                             <span class="input-group-addon"><i class="glyphicon glyphicon-earphone form-control-feedback"></i></span>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <div class="input-group">
-                            <textarea name="InputMessage" id="EmailSendMessage" class="form-control" rows="4" required placeholder="Коротко о проблеме"></textarea>
+                            <textarea name="InputMessage" id="EmailSendMessage" class="form-control" rows="4" required placeholder="{{ locale['block.contact.form.message'] }}"></textarea>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-pencil form-control-feedback"></i></span>
                         </div>
                     </div>
-
-                    <input disabled type="submit" name="submit" id="sumbitEmailSend" value="Отправить" class="btn wow tada btn-embossed btn-primary pull-right">
+                    <input disabled type="submit" name="submit" id="sumbitEmailSend" value="{{ locale['block.contact.form.submit'] }}" class="btn wow tada btn-embossed btn-primary pull-right">
                 </div>
             </form>
 
             <hr class="featurette-divider hidden-lg">
             <div class="col-md-5 col-md-push-1 address">
                 <address>
-                    <p class="lead" style="margin-top:0">Помните! <br>Срочные дела всегда решаются по телефону.</p>
+                    {% autoescape false %}
+                    <p class="lead" style="margin-top:0">{{ locale['block.contact.desc'] }}</p>
+                    {% endautoescape %}
                 </address>
                 <hr>
                 <li class="social">

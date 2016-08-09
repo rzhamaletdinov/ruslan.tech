@@ -45,21 +45,3 @@ $( "#EmailSendMessage" ).keyup(function() {
 $( "#callbackPhone" ).keyup(function() {
     checkValid(['#callbackPhone'],'#sumbitCallback');
 });
-
-$(document).ready(function() {
-
-    $('#EmailSendForm').ajaxForm(function(response) {
-        console.log(response);
-        $('#contentSubmitModal').text('Сообщение уже в моем почтовом ящике!');
-        $('#SubmitModal').modal('show');
-    });
-
-    $("#callbackPhone").mask("8 999 999 99 99");
-
-    //not working
-    $('#CallbackForm').ajaxForm(function(response) {
-        console.log(response);
-        $('#contentSubmitModal').text('Я уже набираю номер!');
-        $('#SubmitModal').modal('show');
-    });
-});
