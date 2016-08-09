@@ -46,8 +46,8 @@ abstract class Controller
 
     public static function aggregate(array $data_args, Controller $controller)
     {
-        foreach ($data_args as $arg)
-            $result['args'][] = $arg;
+        foreach ($data_args as $key => $value)
+            $result['args'][$key] = $value;
         $result['config']['template_path']  = $controller->get_template();
         $result['config']['title']          = $controller->get_title();
         return $result;

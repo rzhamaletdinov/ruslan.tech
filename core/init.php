@@ -38,6 +38,7 @@ final class Application
         $view = View::init(Config::TEMPLATE_PATH);
         $data_view = Controller::aggregate($data_args, $controller);
         $template = $view->loadTemplate('page/' . $data_view['config']['template_path'] . '.twig');
-        echo $template->render(['text' => 'Twig, Twig, Twig!', 'title' => $data_view['config']['title']]);
+
+        echo $template->render($data_args);
     }
 }

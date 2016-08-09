@@ -10,11 +10,12 @@
     {#SEO#}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Разработка, сопровождение проектов. Работа напрямую с программистом. Программирование скриптов, рассылок, парсеров. Сопровождение проектов, восстановление работоспособности сайтов. Консультации, планирование, аудит, проведение собеседований.">
-    <meta name="keywords" content="Разработка проектов, сопровождение проектов, работа напрямую с программистом">
-    <meta name="author" content="www.ruslan.tech">
+{#    <meta name="description" content="Разработка, сопровождение проектов. Работа напрямую с программистом. Программирование скриптов, рассылок, парсеров. Сопровождение проектов, восстановление работоспособности сайтов. Консультации, планирование, аудит, проведение собеседований.">#}
+    <meta name="description" content="{{ locale['block.header.meta.desc'] }}">
+    <meta name="keywords" content="{{ locale['block.header.meta.keywords'] }}">
+{#    <meta name="author" content="www.ruslan.tech">#}
 
-    <title>Разработка & сопровождение проектов</title>
+    <title>{{ locale['block.header.title'] }}</title>
 
     {#Favicon#}
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
@@ -39,8 +40,8 @@
     {#Facebook#}
     <meta property="og:url"           content="http://ruslan.tech/" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Работаю напрямую с программистом и экономлю бюджет проекта!" />
-    <meta property="og:description"   content="IT-решения: проект под ключ, программирование, сопровождение, консалтинг." />
+    <meta property="og:title"         content="{{ locale['block.header.meta.og.title'] }}" />
+    <meta property="og:description"   content="{{ locale['block.header.meta.og.desc'] }}" />
     <meta property="og:image"         content="http://ruslan.tech/img/programmer/1.jpg" />
 
 

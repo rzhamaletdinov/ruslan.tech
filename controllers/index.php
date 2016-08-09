@@ -1,11 +1,11 @@
 <?php
 
+require_once(__DIR__ . '/../models/Localization.php');
+
 class mode_index extends Controller
 {
     function process()
     {
-        $this->set_title('Главная');
-        $this->set_content('Текст на главной');
         $path = 'index';
         $this->set_template($path);
 
@@ -14,6 +14,8 @@ class mode_index extends Controller
             'text'  => 'text text text'
         ];
 
+        Localization::init('ru');
+        $args = ['locale' => Localization::forceLoad()];
         return $args;
     }
 }

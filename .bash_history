@@ -72,3 +72,21 @@ clear
 ls -0al
 ls -al
 exit
+ll
+rm -rf .git
+ll
+git status
+ll
+ll
+git status
+git init
+git commit -m "first commit"
+git status
+git add .
+git commit -m "landing"
+git remote add origin https://github.com/rzhamaletdinov/ruslan.tech.git
+git push -u origin master
+git status
+git log
+exit
+exit
