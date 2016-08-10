@@ -6,6 +6,7 @@ class Handler
     {
         if(Config::is_cli())
             return Config::MODE_PREFIX.Config::MODE_INDEX_PAGE;
+
         $mode = trim($_SERVER['REQUEST_URI'], "/");
         $mode = current(explode("?", $mode));
         if(!$mode)

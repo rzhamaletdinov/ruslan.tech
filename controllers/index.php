@@ -15,7 +15,7 @@ class mode_index extends Controller
         ];
 
         Localization::init('ru');
-        $args = ['locale' => Localization::forceLoad()];
+        $args = ['locale' => Localization::getVars()];
         return $args;
     }
 }

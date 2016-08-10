@@ -40,6 +40,11 @@ class Localization
         unset(self::$_storage["BLOCK"]);
     }
 
+    public static function getVars()
+    {
+        return self::$_storage;
+    }
+
     public static function forceLoad()
     {
         self::init(self::getDefaultLang());

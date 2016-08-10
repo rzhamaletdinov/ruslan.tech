@@ -118,5 +118,5 @@ block.contact.form.message,"Коротко о проблеме"
 block.contact.form.submit,"Отправить"
 BLOCK,MODAL
 block.modal.thanks_for_request,"Спасибо за обращение!"
-block.modal.message.success,"Сообщение уже в моем почтовом ящике!"
+block.modal.message.success,"Сообщение уже в моем телефоне!"
 block.modal.phone.success,"Я уже набираю номер!"

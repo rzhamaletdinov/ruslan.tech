@@ -2,21 +2,20 @@
 
 require_once(__DIR__ . '/../models/Localization.php');
 
-class mode_test extends Controller
+class mode_en extends Controller
 {
-
     function process()
     {
+        Localization::init('en');
+        dump(Localization::forceLoad());
+        exit;
+        dump(123);
+        exit;
         $path = 'index';
         $this->set_template($path);
 
-        $args = [
-            'title' => 'MyIndexTitle',
-            'text'  => 'text text text'
-        ];
-
         Localization::init('en');
-        $args = ['locale' => Localization::getVars()];
+        $args = ['locale' => Localization::forceLoad()];
         return $args;
     }
 }

@@ -90,3 +90,22 @@ git status
 git log
 exit
 exit
+pwd
+ll
+exit
+ll
+git status
+git add .
+ll
+git commit -m'Localization part'
+git commit -m'Localization part'
+git status
+git push
+git status
+git status
+git status
+git add .
+git commmit -m'locales in twig all'
+git commit -m'locales in twig all'
+git status
+git push
