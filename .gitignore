@@ -10,3 +10,10 @@ vendor
 #apache local-config
 findwc.conf
 
+.cache
+.composer
+.config
+.local
+.ssh
+__MACOSX
+.bash_history
